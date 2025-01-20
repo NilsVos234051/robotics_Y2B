@@ -1,0 +1,7 @@
+{"time":"2025-01-20T13:43:33.7141874+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/wandb/run-20250120_134333-teopp8kw/logs/debug-core.log"}
+{"time":"2025-01-20T13:43:33.818414043+01:00","level":"INFO","msg":"created new stream","id":"teopp8kw"}
+{"time":"2025-01-20T13:43:33.818473848+01:00","level":"INFO","msg":"stream: started","id":"teopp8kw"}
+{"time":"2025-01-20T13:43:33.818696214+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"teopp8kw"}
+{"time":"2025-01-20T13:43:33.818725589+01:00","level":"INFO","msg":"handler: started","stream_id":"teopp8kw"}
+{"time":"2025-01-20T13:43:33.818839385+01:00","level":"INFO","msg":"sender: started","stream_id":"teopp8kw"}
+{"time":"2025-01-20T13:43:34.052962728+01:00","level":"INFO","msg":"Starting system monitor"}

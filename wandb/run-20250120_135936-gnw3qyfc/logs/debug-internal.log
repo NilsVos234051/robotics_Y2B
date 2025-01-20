@@ -1,0 +1,11 @@
+{"time":"2025-01-20T13:59:36.678639637+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/wandb/run-20250120_135936-gnw3qyfc/logs/debug-core.log"}
+{"time":"2025-01-20T13:59:36.784350085+01:00","level":"INFO","msg":"created new stream","id":"gnw3qyfc"}
+{"time":"2025-01-20T13:59:36.784416962+01:00","level":"INFO","msg":"stream: started","id":"gnw3qyfc"}
+{"time":"2025-01-20T13:59:36.784606643+01:00","level":"INFO","msg":"handler: started","stream_id":"gnw3qyfc"}
+{"time":"2025-01-20T13:59:36.784666753+01:00","level":"INFO","msg":"sender: started","stream_id":"gnw3qyfc"}
+{"time":"2025-01-20T13:59:36.784543567+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gnw3qyfc"}
+{"time":"2025-01-20T13:59:37.156887212+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T14:01:37.714705053+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/234051-breda-university-of-applied-sciences/OT2-Hyperparameter-Search/gnw3qyfc/file_stream"}
+{"time":"2025-01-20T14:01:37.714744305+01:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/234051-breda-university-of-applied-sciences/OT2-Hyperparameter-Search/gnw3qyfc/file_stream: {\"error\":\"run OT2-Hyperparameter-Search/gnw3qyfc not found while streaming file\"}"}
+{"time":"2025-01-20T14:01:42.273704343+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-20T14:01:42.273748564+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run OT2-Hyperparameter-Search/gnw3qyfc not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}

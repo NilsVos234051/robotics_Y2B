@@ -1,0 +1,15 @@
+{"time":"2025-01-20T13:03:05.480989972+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/wandb/run-20250120_130305-yfssohuk/logs/debug-core.log"}
+{"time":"2025-01-20T13:03:05.58652301+01:00","level":"INFO","msg":"created new stream","id":"yfssohuk"}
+{"time":"2025-01-20T13:03:05.586576373+01:00","level":"INFO","msg":"stream: started","id":"yfssohuk"}
+{"time":"2025-01-20T13:03:05.586724088+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:05.586770116+01:00","level":"INFO","msg":"sender: started","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:05.58690274+01:00","level":"INFO","msg":"handler: started","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:05.917285733+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T13:03:06.657624261+01:00","level":"INFO","msg":"stream: closing","id":"yfssohuk"}
+{"time":"2025-01-20T13:03:06.657638624+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T13:03:06.658140483+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T13:03:07.273242323+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T13:03:07.546254904+01:00","level":"INFO","msg":"handler: closed","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:07.546300083+01:00","level":"INFO","msg":"sender: closed","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:07.546300637+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yfssohuk"}
+{"time":"2025-01-20T13:03:07.546370858+01:00","level":"INFO","msg":"stream: closed","id":"yfssohuk"}

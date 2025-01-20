@@ -1,0 +1,60 @@
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/home/nils/anaconda3/envs/blockB/lib/python3.8/site-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+Logging to runs/kwr8z5vk/PPO_1
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -881     |
+| time/              |          |
+|    fps             | 576      |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 2048     |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -913        |
+| time/                   |             |
+|    fps                  | 401         |
+|    iterations           | 2           |
+|    time_elapsed         | 10          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.008308563 |
+|    clip_fraction        | 0.0628      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.67       |
+|    explained_variance   | -0.097      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.37        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00729    |
+|    std                  | 0.993       |
+|    value_loss           | 88.9        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -864        |
+| time/                   |             |
+|    fps                  | 366         |
+|    iterations           | 3           |
+|    time_elapsed         | 16          |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.006852937 |
+|    clip_fraction        | 0.0343      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.63       |
+|    explained_variance   | -0.0655     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.98        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00371    |
+|    std                  | 0.982       |
+|    value_loss           | 53          |
+-----------------------------------------

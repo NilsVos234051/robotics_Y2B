@@ -1,0 +1,15 @@
+{"time":"2025-01-20T12:40:25.049743959+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/wandb/run-20250120_124024-e6n3ilhd/logs/debug-core.log"}
+{"time":"2025-01-20T12:40:25.158761795+01:00","level":"INFO","msg":"created new stream","id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:25.158797475+01:00","level":"INFO","msg":"stream: started","id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:25.158936423+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:25.159015984+01:00","level":"INFO","msg":"handler: started","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:25.159094333+01:00","level":"INFO","msg":"sender: started","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:25.523795584+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T12:40:26.30669625+01:00","level":"INFO","msg":"stream: closing","id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:26.306724174+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T12:40:26.307268296+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T12:40:26.971811346+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T12:40:27.155305823+01:00","level":"INFO","msg":"handler: closed","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:27.155331352+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:27.155371969+01:00","level":"INFO","msg":"sender: closed","stream_id":"e6n3ilhd"}
+{"time":"2025-01-20T12:40:27.155393057+01:00","level":"INFO","msg":"stream: closed","id":"e6n3ilhd"}

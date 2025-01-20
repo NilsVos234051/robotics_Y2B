@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "task11.py", line 49, in <module>
+    eval_env = OT2Env(render=False)
+  File "/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/task10.py", line 14, in __init__
+    self.sim = Simulation(num_agents=1)
+  File "/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/sim_class.py", line 20, in __init__
+    self.physicsClient = p.connect(mode)
+pybullet.error: Only one local in-process GUI/GUI_SERVER connection allowed. Use DIRECT connection mode or start a separate GUI physics server (ExampleBrowser, App_SharedMemoryPhysics_GUI, App_SharedMemoryPhysics_VR) and connect over SHARED_MEMORY, UDP or TCP instead.
+Traceback (most recent call last):
+  File "task11.py", line 49, in <module>
+    eval_env = OT2Env(render=False)
+  File "/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/task10.py", line 14, in __init__
+    self.sim = Simulation(num_agents=1)
+  File "/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/sim_class.py", line 20, in __init__
+    self.physicsClient = p.connect(mode)
+pybullet.error: Only one local in-process GUI/GUI_SERVER connection allowed. Use DIRECT connection mode or start a separate GUI physics server (ExampleBrowser, App_SharedMemoryPhysics_GUI, App_SharedMemoryPhysics_VR) and connect over SHARED_MEMORY, UDP or TCP instead.

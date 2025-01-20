@@ -1,0 +1,17 @@
+{"time":"2025-01-20T13:38:20.290011854+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/nils/Documents/repositories/2024-25b-fai2-adsai-NilsVos234051/robotics_tasks/wandb/run-20250120_133820-tybircq3/logs/debug-core.log"}
+{"time":"2025-01-20T13:38:20.395543185+01:00","level":"INFO","msg":"created new stream","id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.395609117+01:00","level":"INFO","msg":"stream: started","id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.399003808+01:00","level":"INFO","msg":"handler: started","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.39907892+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.399315173+01:00","level":"INFO","msg":"sender: started","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.566163673+01:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-20T13:38:20.573872725+01:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-20T13:38:20.585726825+01:00","level":"INFO","msg":"stream: closing","id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.585762387+01:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-01-20T13:38:20.761791088+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-20T13:38:20.761907856+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project nils/OT2-Hyperparameter-Search not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-01-20T13:38:20.762959042+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T13:38:20.763045173+01:00","level":"INFO","msg":"handler: closed","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.763077407+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.76315332+01:00","level":"INFO","msg":"sender: closed","stream_id":"tybircq3"}
+{"time":"2025-01-20T13:38:20.763163966+01:00","level":"INFO","msg":"stream: closed","id":"tybircq3"}
