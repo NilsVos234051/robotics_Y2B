@@ -36,7 +36,10 @@ class OT2Env(gym.Env):
 
         # Reset the state of the environment to an initial state
         # Set a random goal position for the agent, consisting of x, y, and z coordinates within the working area
-        self.goal_position = np.random.uniform(low=-1.0, high=1.0, size=3)
+        random_x = np.random.uniform(low=-0.1873, high=0.2534)
+        random_y = np.random.uniform(low=-0.1706, high=0.2197)
+        random_z = np.random.uniform(low=0.1692, high=0.2897)
+        self.goal_position = np.array([random_x, random_y, random_z])
 
         # Call the environment reset function
         observation = self.sim.reset(num_agents=1)
