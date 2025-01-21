@@ -52,15 +52,17 @@ model = PPO('MlpPolicy', env, verbose=1,
             tensorboard_log=f"runs/{run.id}",
             )
 
-# Train the model and track it with WandB
-model.learn(
-            total_timesteps=500000,
-            callback=wandb_callback,
-            progress_bar=True,
-            )
+
+timesteps = 100000
+for i in range(5):
+    # add the reset_num_timesteps=False argument to the learn function to prevent the model from resetting the timestep counter
+    # add the tb_log_name argument to the learn function to log the tensorboard data to the correct folder
+    model.learn(total_timesteps=timesteps, callback=wandb_callback, progress_bar=True, reset_num_timesteps=False,tb_log_name=f"runs/{run.id}")
+    # save the model to the models folder with the run id and the current timestep
+    model.save(f"models/{run.id}/{timesteps*(i+1)}")
 
 # Save the final model
-model.save(f"ppo_ot2_lr{args.learning_rate}_ns{args.n_steps}_bs{args.batch_size}")
+model.save(f"models/ppo_ot2_lr{args.learning_rate}_ns{args.n_steps}_bs{args.batch_size}")
 
 # Close the environments
 env.close()
